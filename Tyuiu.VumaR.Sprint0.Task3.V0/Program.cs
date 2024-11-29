@@ -1,10 +1,14 @@
-﻿namespace Tyuiu.VumaR.Sprint0.Task3.V0
+﻿
+using Tyuiu.VumaR.Sprint0.Task3.V0.Lib;
+
+namespace Tyuiu.VumaR.Sprint0.Task3.V0
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine(DataService.Sum(7, 7));
+            Console.ReadKey();
         }
     }
 }
